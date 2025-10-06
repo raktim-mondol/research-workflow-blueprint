@@ -1,218 +1,292 @@
-# 📚 Academic Research Assistant 🤖
+# 📚 AI-Powered Academic Research Assistant 🤖
 
-Welcome to **Academic Research Assistant**! This repository provides a collection of markdown files designed to supercharge your academic research workflow with AI-powered tools. Originally adapted from software development workflows, these tools are now optimized for literature reviews, research paper writing, and academic project management.
+Welcome to the **Academic Research Assistant** - a comprehensive framework designed to transform how you conduct academic research with AI. This repository provides structured workflows that break down complex research projects into manageable, verifiable steps, ensuring academic rigor and quality throughout your research journey.
 
-Stop wrestling with unstructured research processes and start guiding your AI research assistant step-by-step!
+## 🎯 What This Framework Solves
 
-## ✨ The Core Idea
+Academic research with AI often leads to:
+- **Unstructured outputs** that are hard to organize
+- **Overwhelming complexity** when tackling large projects
+- **Lack of verification** for AI-generated content
+- **Inconsistent quality** across different research phases
 
-Conducting academic research with AI can sometimes feel overwhelming. This workflow aims to bring structure, clarity, and control to the research process by:
+This framework addresses these challenges by providing **systematic, step-by-step workflows** that guide AI assistants through the entire research lifecycle.
 
-1. **Defining Research Scope:** Clearly outlining your research question and objectives with a Research Proposal Document.
-2. **Detailed Planning:** Breaking down the research proposal into a granular, actionable task list.
-3. **Iterative Research:** Guiding the AI to tackle one research task at a time, allowing you to review and approve each step.
+## 🏗️ Framework Architecture
 
-This structured approach helps ensure the AI stays on track, makes it easier to organize literature, and gives you confidence in the research output.
+Each research workflow follows a consistent three-phase pattern:
 
-## Workflow: From Research Idea to Completed Paper 💡➡️📄
+### Phase 1: Planning & Structuring
+- Create comprehensive outlines and proposals
+- Define research scope and methodology
+- Establish clear objectives and deliverables
 
-Here's the step-by-step process using the `.md` files in this repository:
+### Phase 2: Task Generation & Breakdown
+- Convert proposals into actionable task lists
+- Create hierarchical task structures with dependencies
+- Establish clear success criteria for each task
 
-### 1️⃣ Create a Research Proposal Document
+### Phase 3: Iterative Execution & Verification
+- Process tasks one at a time
+- Human-in-the-loop review process
+- Progress tracking and milestone completion
 
-First, lay out the blueprint for your research project. A research proposal clarifies what you're studying, why it matters, and how you'll approach it.
+## 📋 Available Research Workflows
 
-You can create a research proposal directly within your AI tool of choice:
+### 🔍 **Literature Review** (`/literature-review/`)
+Comprehensive literature analysis and synthesis:
+- **`1.conduct-literature-review.md`** - Systematic approach to literature search and analysis
+- **`2.generate-research-tasks.md`** - Break down literature review into manageable tasks
+- **`3.process-research-task-list.md`** - Execute literature review tasks systematically
 
-1. Ensure you have the `create-research-proposal.md` file from this repository accessible.
-2. In your AI tool, initiate proposal creation:
+### 📝 **Paper Writing** (`/paper-writing/`)
+From outline to completed manuscript:
+- **`1.create-paper-outline.md`** - Structure your paper with clear sections
+- **`2.generate-paper-writing-tasks.md`** - Convert outline into writing tasks
+- **`3.process-paper-writing-task-list.md`** - Write and refine paper sections iteratively
 
-    ```text
-    Use @create-research-proposal.md
-    Here's the research topic I want to explore: [Describe your research topic in detail]
-    ```
+### 🗂️ **Research Project Management** (`/research-project-management/`)
+Complete research lifecycle management:
+- **`1.create-research-project-plan.md`** - Comprehensive project planning
+- **`2.generate-research-project-tasks.md`** - Break down project into executable tasks
+- **`3.process-research-project-task-list.md`** - Execute project tasks with oversight
 
-### 2️⃣ Generate Your Research Task List from the Proposal
+### 📄 **Research Proposal Development** (`/research-proposal/`)
+From research idea to formal proposal:
+- **`1.create-research-proposal.md`** - Develop structured research proposals
+- **`2.generate-research-tasks.md`** - Generate research tasks from proposals
+- **`3.process-research-task-list.md`** - Execute research tasks methodically
 
-With your research proposal drafted (e.g., `MyResearch-Proposal.md`), the next step is to generate a detailed, step-by-step research plan.
+## 🚀 Getting Started: The Core Workflow
 
-1. Ensure you have `generate-research-tasks.md` accessible.
-2. In your AI tool, use the proposal to create research tasks:
+### Step 1: Define Your Research Scope
 
-    ```text
-    Now take @MyResearch-Proposal.md and create tasks using @generate-research-tasks.md
-    ```
-    *(Note: Replace `@MyResearch-Proposal.md` with the actual filename of the proposal you generated in step 1.)*
+Start with a research proposal to establish clear boundaries and objectives:
 
-### 3️⃣ Examine Your Research Task List
+```text
+Use @create-research-proposal.md
+Research Topic: [Your detailed research topic description]
+```
 
-You'll now have a well-structured research task list, often with tasks and sub-tasks, ready for the AI to start working on. This provides a clear roadmap for your research project.
+### Step 2: Generate Actionable Task Lists
 
-### 4️⃣ Instruct the AI to Work Through Research Tasks (and Mark Completion)
+Convert your proposal into a detailed, step-by-step research plan:
 
-To ensure methodical progress and allow for verification, we'll use `process-research-task-list.md`. This command instructs the AI to focus on one research task at a time and wait for your go-ahead before moving to the next.
+```text
+Now take @MyResearch-Proposal.md and create tasks using @generate-research-tasks.md
+```
 
-1. Create or ensure you have the `process-research-task-list.md` file accessible.
-2. In your AI tool, tell the AI to start with the first task (e.g., `1.1`):
+### Step 3: Execute with Oversight
 
-    ```text
-    Please start on task 1.1 and use @process-research-task-list.md
-    ```
-    *(Important: You only need to reference `@process-research-task-list.md` for the *first* task. The instructions within it guide the AI for subsequent tasks.)*
+Begin systematic task execution:
 
-The AI will attempt the task and then prompt you to review.
+```text
+Please start on task 1.1 and use @process-research-task-list.md
+```
 
-### 5️⃣ Review, Approve, and Progress ✅
+### Step 4: Review & Progress
 
-As the AI completes each research task, you review the work.
+For each completed task:
+- **Review** the AI's work
+- **Approve** with "yes" or provide feedback
+- **Track** progress through completed milestones
 
-* If the work is satisfactory, simply reply with "yes" (or a similar affirmative) to instruct the AI to mark the task complete and move to the next one.
-* If changes are needed, provide feedback to the AI to correct the current task before moving on.
+## 🎯 Key Benefits
 
-You'll see a satisfying list of completed research milestones grow, providing a clear visual of your research project progressing!
+### ✅ **Quality Assurance**
+- Human verification at every step
+- Consistent academic standards
+- Error detection and correction
 
-## 🗂️ Files in this Repository
+### 📊 **Progress Visibility**
+- Clear visual tracking of completed tasks
+- Understanding of remaining work
+- Confidence in research direction
 
-* **`create-research-proposal.md`**: Guides the AI in generating a Research Proposal Document for your academic project.
-* **`generate-research-tasks.md`**: Takes a research proposal markdown file as input and helps the AI break it down into a detailed, step-by-step research task list.
-* **`process-research-task-list.md`**: Instructs the AI on how to process the generated task list, tackling one research task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
-* **`conduct-literature-review.md`**: Guides the AI in conducting a comprehensive literature review for a research topic.
+### 🎪 **Complexity Management**
+- Break down large projects into digestible chunks
+- Maintain focus on current objectives
+- Reduce cognitive overload
 
-## 🌟 Benefits
+### 🔄 **Iterative Improvement**
+- Continuous feedback integration
+- Adaptive research approach
+- Quality enhancement through iteration
 
-* **Structured Research:** Enforces a clear process from research question to completed paper.
-* **Step-by-Step Verification:** Allows you to review and approve AI-generated research work at each small step, ensuring academic rigor and quality.
-* **Manages Research Complexity:** Breaks down large research projects into smaller, digestible tasks for the AI, reducing the chance of it getting lost or generating unstructured, incomplete work.
-* **Improved Reliability:** Offers a more dependable approach to leveraging AI for academic research compared to single, large prompts.
-* **Clear Progress Tracking:** Provides a visual representation of completed research tasks, making it easy to see how much has been done and what's next.
+### 🎯 **Goal Alignment**
+- Ensure AI stays on track with research objectives
+- Maintain alignment with academic standards
+- Consistent progress toward research goals
 
-## 🚀 Coming Soon Workflows
+## 🛠️ Implementation Guide
 
-### 🔄 **Data Analysis Pipeline**
-- Systematic data processing and analysis workflows
+### Quick Start
 
-### 🔄 **Experiment Design & Execution**
-- Protocol development and experimental task management
-
-### 🔄 **Code Development & Implementation**
-- Structured coding tasks and development processes
-
-### 🔄 **Grant Proposal Writing**
-- Funding application development and submission
-
-### 🔄 **Thesis/Dissertation Writing**
-- Long-form academic writing support
-
-### 🔄 **Conference Presentation Preparation**
-- Slide creation and presentation practice workflows
-
-### 🔄 **Systematic Review Process**
-- Comprehensive systematic review methodology
-
-### 🔄 **Peer Review Process**
-- Manuscript evaluation and feedback workflows
-
-### 🔄 **Research Data Management**
-- Data organization, documentation, and sharing protocols
-
-### 🔄 **Research Ethics & Compliance**
-- Ethical review preparation and compliance tracking
-
-## Framework Structure
-
-Each workflow follows a consistent three-step pattern:
-1. **Planning Phase** - Outline and structure creation
-2. **Task Generation** - Breaking down into actionable steps
-
-### 🔄 **Research Project Management**
-- Complete research lifecycle tracking and coordination
-
----
-
-*This framework is designed to scale with additional academic workflows as needed.*
-
-## 🛠️ How to Use
-
-1. **Clone or Download:** Get these `.md` files into your research project or a central location where your AI tool can access them.
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/snarktank/ai-dev-tasks.git
    ```
-2. **Follow the Workflow:** Systematically use the `.md` files in your AI assistant as described in the workflow above.
-3. **Adapt and Iterate:**
-    * Feel free to modify the prompts within the `.md` files to better suit your specific research needs or academic style.
-    * If the AI struggles with a task, try rephrasing your initial research description or breaking down tasks even further.
 
-## Tool-Specific Instructions
+2. **Choose your workflow** based on your research phase
+3. **Follow the three-phase pattern** for systematic execution
 
-### Cursor
+### Tool-Specific Instructions
 
-Cursor users can follow the workflow described above, using the `.md` files directly in the Agent chat:
+#### **Cursor**
+- Reference files directly in Agent chat using `@` syntax
+- Follow the step-by-step workflow
+- Provide clear, specific research descriptions
 
-1. Ensure you have the files from this repository accessible
-2. In Cursor's Agent chat, reference files with `@` (e.g., `@create-research-proposal.md`)
-3. Follow the 5-step workflow as outlined above
+#### **Claude Code**
 
-### Claude Code
+**Option A: Reference in CLAUDE.md**
+```markdown
+# Academic Research Assistant
+Use these structured workflows for systematic research:
+/literature-review/1.conduct-literature-review.md
+/paper-writing/1.create-paper-outline.md
+/research-project-management/1.create-research-project-plan.md
+/research-proposal/1.create-research-proposal.md
+```
 
-To use these tools with Claude Code:
+**Option B: Custom Commands** (Recommended):
 
-1. **Copy files to your repo**: Copy the three `.md` files to a subdirectory in your project (e.g., `/academic-research-assistant`)
+Create these files in `.claude/commands/`:
 
-2. **Reference in CLAUDE.md**: Add these lines to your project's `./CLAUDE.md` file:
-   ```
-   # Academic Research Assistant
-   Use these files when I request structured academic research using research proposals:
-   /academic-research-assistant/create-research-proposal.md
-   /academic-research-assistant/generate-research-tasks.md
-   /academic-research-assistant/process-research-task-list.md
-   ```
+- **`.claude/commands/create-research-proposal.md`**
+  ```
+  Please use the structured workflow in /academic-research-assistant/create-research-proposal.md to help me create a research proposal for a new project.
+  ```
 
-3. **Create custom commands** (optional): For easier access, create these files in `.claude/commands/`:
-   - `.claude/commands/create-research-proposal.md` with content:
-     ```
-     Please use the structured workflow in /academic-research-assistant/create-research-proposal.md to help me create a research proposal for a new project.
-     ```
-   - `.claude/commands/generate-research-tasks.md` with content:
-     ```
-     Please generate research tasks from the proposal using /academic-research-assistant/generate-research-tasks.md
-     If not explicitly told which proposal to use, generate a list of proposals and ask the user to select one under `/research` or create a new one using `create-research-proposal.md`:
-     - assume it's stored under `/research` and has a filename starting with `[n]-proposal-` (e.g., `0001-proposal-[topic].md`)
-     - it should not already have a corresponding task list in `/research` (e.g., `tasks-0001-proposal-[topic].md`)
-     - **always** ask the user to confirm the proposal file name before proceeding
-     Make sure to provide options in number lists so I can respond easily (if multiple options).
-     ```
-   - `.claude/commands/process-research-task-list.md` with content:
-     ```
-     Please process the research task list using /academic-research-assistant/process-research-task-list.md
-     ```
+- **`.claude/commands/generate-research-tasks.md`**
+  ```
+  Please generate research tasks from the proposal using /academic-research-assistant/generate-research-tasks.md
+  ```
 
-   Make sure to restart Claude Code after adding these files (`/exit`).
-   Then use commands like `/create-research-proposal` to quickly start the workflow.
+- **`.claude/commands/process-research-task-list.md`**
+  ```
+  Please process the research task list using /academic-research-assistant/process-research-task-list.md
+  ```
 
-### Other Tools
+#### **Other AI Tools**
+- Copy the relevant `.md` files to your project
+- Reference them according to your tool's documentation
+- Follow the same workflow principles
 
-For other AI-powered IDEs or CLIs:
+## 💡 Best Practices for Success
 
-1. Copy the `.md` files to your project
-2. Reference them according to your tool's documentation
-3. Follow the same workflow principles
+### 🎯 **Be Specific and Detailed**
+- Provide comprehensive research context
+- Include relevant background information
+- Specify academic standards and requirements
 
-## 💡 Tips for Success
+### 🔄 **Iterative Approach**
+- Start with small, well-defined tasks
+- Build complexity gradually
+- Maintain quality through verification
 
-* **Be Specific:** The more context and clear instructions you provide (both in your initial research description and any clarifications), the better the AI's output will be.
-* **Use a Capable Model:** The free version of Cursor currently uses less capable AI models that often struggle to follow the structured instructions in this workflow. For best results, consider upgrading to the Pro plan to ensure consistent, accurate task execution.
-* **Correct File Tagging:** Always ensure you're accurately tagging the proposal filename (e.g., `@MyResearch-Proposal.md`) when generating tasks.
-* **Patience and Iteration:** AI is a powerful tool, but it's not magic. Be prepared to guide, correct, and iterate. This workflow is designed to make that iteration process smoother.
+### 🤖 **Model Selection**
+- Use capable AI models (Pro plans recommended)
+- Ensure consistent performance
+- Monitor for quality degradation
 
-## 🤝 Contributing
+### 📁 **File Management**
+- Use consistent naming conventions
+- Organize files by research phase
+- Maintain clear version control
 
-Got ideas to improve these `.md` files or have new ones that fit this workflow? Contributions are welcome!
+## 🔮 Future Workflows (Planned)
 
-Please feel free to:
+### 📊 **Data Analysis Pipeline**
+- Systematic data processing and statistical analysis
+- Visualization and interpretation workflows
 
-* Open an issue to discuss changes or suggest new features.
-* Submit a pull request with your enhancements.
+### 🔬 **Experiment Design & Execution**
+- Protocol development and validation
+- Experimental task management
+- Results analysis and interpretation
+
+### 💻 **Code Development & Implementation**
+- Research software development
+- Algorithm implementation and testing
+- Computational research workflows
+
+### 💰 **Grant Proposal Writing**
+- Funding application development
+- Budget planning and justification
+- Compliance and submission workflows
+
+### 📚 **Thesis/Dissertation Writing**
+- Long-form academic writing support
+- Chapter development and integration
+- Defense preparation workflows
+
+### 🎤 **Conference Presentation Preparation**
+- Slide creation and design
+- Presentation practice and refinement
+- Abstract and submission processes
+
+### 🔍 **Systematic Review Process**
+- Comprehensive systematic review methodology
+- Quality assessment and synthesis
+- Reporting and dissemination
+
+### 👥 **Peer Review Process**
+- Manuscript evaluation frameworks
+- Constructive feedback generation
+- Review management workflows
+
+### 📁 **Research Data Management**
+- Data organization and documentation
+- Sharing protocols and compliance
+- Long-term preservation strategies
+
+### ⚖️ **Research Ethics & Compliance**
+- Ethical review preparation
+- Compliance tracking and reporting
+- Institutional review board (IRB) workflows
+
+## 🤝 Contributing & Community
+
+We welcome contributions to enhance and expand this framework:
+
+### 🎯 **How to Contribute**
+- **New Workflows:** Propose additional research workflows
+- **Improvements:** Enhance existing prompts and workflows
+- **Documentation:** Improve guides and examples
+
+### 📬 **Getting Involved**
+- **Open Issues:** Discuss improvements or report problems
+- **Pull Requests:** Submit enhancements directly
+- **Discussion:** Share experiences and best practices
+
+### 🐛 **Reporting Issues**
+- Use GitHub Issues for bug reports
+- Suggest new features or workflows
+- Share successful implementations
+
+## 📚 Additional Resources
+
+### 📖 **Academic Standards**
+- Ensure compliance with disciplinary conventions
+- Maintain rigorous academic quality
+- Follow ethical research practices
 
 ---
 
-Happy AI-assisted researching!
+## 🎉 Ready to Transform Your Research?
+
+This framework represents a paradigm shift in how we approach academic research with AI. By breaking down complex projects into verifiable steps, you gain:
+
+- **Control** over the research process
+- **Confidence** in the quality of AI-generated work
+- **Efficiency** through systematic execution
+- **Quality** through continuous verification
+
+**Start your structured research journey today!**
+
+---
+
+*Built by researchers, for researchers. This framework scales with your research needs.*
+
+**Happy AI-assisted researching! 🎓✨
