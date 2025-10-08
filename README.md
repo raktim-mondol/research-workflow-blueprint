@@ -31,7 +31,7 @@ Each research workflow follows a consistent three-phase pattern:
 - Human-in-the-loop review process
 - Progress tracking and milestone completion
 
-## 📋 Available Research Workflows
+## 📋 Complete Research Workflow Directory
 
 ### 🔍 **Literature Review** (`/literature-review/`)
 Comprehensive literature analysis and synthesis:
@@ -56,6 +56,54 @@ From research idea to formal proposal:
 - **`1.create-research-proposal.md`** - Develop structured research proposals
 - **`2.generate-research-tasks.md`** - Generate research tasks from proposals
 - **`3.process-research-task-list.md`** - Execute research tasks methodically
+
+### 📊 **Data Analysis** (`/data-analysis/`)
+Systematic data processing and statistical analysis:
+- **`1.define-analysis-plan.md`** - Plan statistical analysis approach
+- **`2.generate-analysis-tasks.md`** - Create analysis task list
+- **`3.process-analysis-task-list.md`** - Execute analysis tasks step-by-step
+
+### 💾 **Data Management** (`/data-management/`)
+Research data organization and documentation:
+- **`1.create-data-plan.md`** - Design data management strategy
+- **`2.generate-data-tasks.md`** - Generate data handling tasks
+- **`3.process-data-task-list.md`** - Process data management tasks systematically
+
+### 🔬 **Experiment Design** (`/experiment-design/`)
+Protocol development and experimental validation:
+- **`1.create-experiment-protocol.md`** - Create experimental protocols
+- **`2.generate-experiment-tasks.md`** - Break down experiments into tasks
+- **`3.process-experiment-task-list.md`** - Execute experimental tasks with oversight
+
+### 💰 **Grant Proposals** (`/grant-proposals/`)
+Funding application development:
+- **`1.create-grant-outline.md`** - Structure grant proposals
+- **`2.generate-grant-tasks.md`** - Generate grant writing tasks
+- **`3.process-grant-task-list.md`** - Process grant writing tasks methodically
+
+### 👥 **Peer Review** (`/peer-review/`)
+Manuscript evaluation and feedback:
+- **`1.create-review-plan.md`** - Plan review process
+- **`2.generate-review-tasks.md`** - Create review tasks
+- **`3.process-review-task-list.md`** - Execute review tasks systematically
+
+### 🎤 **Presentation Preparation** (`/presentation-prep/`)
+Conference and seminar presentation development:
+- **`1.create-presentation-outline.md`** - Structure presentations
+- **`2.generate-presentation-tasks.md`** - Generate presentation preparation tasks
+- **`3.process-presentation-task-list.md`** - Process presentation tasks step-by-step
+
+### ⚖️ **Research Ethics** (`/research-ethics/`)
+Ethical review preparation and compliance:
+- **`1.create-ethics-plan.md`** - Plan ethical considerations
+- **`2.generate-ethics-tasks.md`** - Generate ethics-related tasks
+- **`3.process-ethics-task-list.md`** - Process ethics compliance tasks
+
+### 📚 **Thesis Writing** (`/thesis-writing/`)
+Long-form academic writing support:
+- **`1.create-thesis-outline.md`** - Structure thesis/dissertation
+- **`2.generate-thesis-tasks.md`** - Generate thesis writing tasks
+- **`3.process-thesis-task-list.md`** - Execute thesis writing tasks systematically
 
 ## 🚀 Getting Started: The Core Workflow
 
@@ -110,7 +158,7 @@ For each completed task:
 
 ### 🔄 **Iterative Improvement**
 - Continuous feedback integration
-- Adaptive research approach
+- Adaptive research research approach
 - Quality enhancement through iteration
 
 ### 🎯 **Goal Alignment**
@@ -195,56 +243,12 @@ Create these files in `.claude/commands/`:
 - Organize files by research phase
 - Maintain clear version control
 
-## 🔮 Future Workflows (Planned)
+## 🔮 Future Enhancements
 
-### 📊 **Data Analysis Pipeline**
-- Systematic data processing and statistical analysis
-- Visualization and interpretation workflows
-
-### 🔬 **Experiment Design & Execution**
-- Protocol development and validation
-- Experimental task management
-- Results analysis and interpretation
-
-### 💻 **Code Development & Implementation**
-- Research software development
-- Algorithm implementation and testing
-- Computational research workflows
-
-### 💰 **Grant Proposal Writing**
-- Funding application development
-- Budget planning and justification
-- Compliance and submission workflows
-
-### 📚 **Thesis/Dissertation Writing**
-- Long-form academic writing support
-- Chapter development and integration
-- Defense preparation workflows
-
-### 🎤 **Conference Presentation Preparation**
-- Slide creation and design
-- Presentation practice and refinement
-- Abstract and submission processes
-
-### 🔍 **Systematic Review Process**
-- Comprehensive systematic review methodology
-- Quality assessment and synthesis
-- Reporting and dissemination
-
-### 👥 **Peer Review Process**
-- Manuscript evaluation frameworks
-- Constructive feedback generation
-- Review management workflows
-
-### 📁 **Research Data Management**
-- Data organization and documentation
-- Sharing protocols and compliance
-- Long-term preservation strategies
-
-### ⚖️ **Research Ethics & Compliance**
-- Ethical review preparation
-- Compliance tracking and reporting
-- Institutional review board (IRB) workflows
+### 🎯 **Expanding Research Domains**
+- Additional specialized workflows for specific disciplines
+- Integration with research databases and tools
+- Advanced collaboration features
 
 ## 🤝 Contributing & Community
 
@@ -276,9 +280,7 @@ We welcome contributions to enhance and expand this framework:
 
 ## 🎉 Ready to Transform Your Research?
 
-This framework represents a paradigm shift in how we approach academic research with AI. By breaking down complex projects into verifiable steps, you gain:
-
-- **Control** over the research process
+This framework represents a paradigm shift in how we approach academic research with AI. By breaking down complex projects into verifiable steps, you gain:\n- **Control** over the research process
 - **Confidence** in the quality of AI-generated work
 - **Efficiency** through systematic execution
 - **Quality** through continuous verification
